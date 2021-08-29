@@ -132,4 +132,10 @@ echo "<h4> - UCWORDS - Converte para maiúsculas o primeiro caractere de cada pa
 $textBase = "   jaison rodrigo dallabrida   ";
 echo ucwords(trim($textBase));
 
+echo "<h4> - SUBSTR - Retorna uma string passando o início e fim como parâmetro de busca.</h4>";
+$textBase = "Acho que sempre é bem fácil retribuir uma gentileza.";
+$nFim = strpos($textBase,"bem");
+echo substr($textBase,0,$nFim);
+
+
 ?>
