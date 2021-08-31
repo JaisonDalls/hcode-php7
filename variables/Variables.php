@@ -111,6 +111,4 @@ function escreveNome(){
 escreveNome();
 echo $nomeGlobal;
 
-
-
 ?>
