@@ -47,7 +47,7 @@
  );
  var_dump($dados);
 
-//valor passado por referencia nessa função. 
+//valor passado por referencia nessa função com o uso de "&". 
 foreach ($dados as &$value) {
    if(gettype($value) === 'integer') $value += 120;
 
