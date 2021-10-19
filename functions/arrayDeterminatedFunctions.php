@@ -1,6 +1,6 @@
 <?php
 
-function marketSum(float ...$productsValues){
+function marketSum(float ...$productsValues){// com o  uso do reticência a função recebe parâmetros infinitos.
     return array_sum($productsValues);
 }
 

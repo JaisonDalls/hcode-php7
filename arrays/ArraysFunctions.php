@@ -1,6 +1,5 @@
 <?php
-echo "<h2>FUNÇÕES DE ARRAYS</h2>";
-echo "<h4> - ARRAY_PUSH - Adiciona um ou mais elementos no final de um array</h4>";
+
 $itensMercado = array();
 array_push($itensMercado,array
     (

@@ -12,23 +12,25 @@ define("DADOS_PESSOAIS",
     [
         'nome'=>'Jaison',
         'sobrenome'=>'Dallabrida',
-        'nomeCompleto'=>'Jaison Rodrigo Dallabrida',
         'sexo'=>'Masculino',
         'idade'=>32,
     ]
 );
+$name = DADOS_PESSOAIS['nome'];
+$lastName = DADOS_PESSOAIS['sobrenome'];
 
-//echo json_encode(DADOS_PESSOAIS);
+echo "<h2>".$name." ".$lastName."</h2>";
+
 
 //constantes de ambiente 
  
-echo "PHP_BINARY =>". PHP_BINARY."<br>";
-echo "PHP_VERSION =>". PHP_VERSION."<br>";
-echo "PHP_OS_FAMILY =>". PHP_OS_FAMILY."<br>";
-echo "PHP_EXTENSION_DIR =>". PHP_EXTENSION_DIR."<br>";
+// echo "PHP_BINARY =>". PHP_BINARY."<br>";
+// echo "PHP_VERSION =>". PHP_VERSION."<br>";
+// echo "PHP_OS_FAMILY =>". PHP_OS_FAMILY."<br>";
+// echo "PHP_EXTENSION_DIR =>". PHP_EXTENSION_DIR."<br>";
 
-echo "APACHE_MAP =>". APACHE_MAP."<br>";
-echo "DIRECTORY_SEPARATOR =>". DIRECTORY_SEPARATOR."<br>";
+// echo "APACHE_MAP =>". APACHE_MAP."<br>";
+// echo "DIRECTORY_SEPARATOR =>". DIRECTORY_SEPARATOR."<br>";
 
 
 

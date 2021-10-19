@@ -1,6 +1,6 @@
 <?php
 
-    function setReturn(int ...$values): string {
+    function setReturn(int ...$values): string { // nesta função daclara-se que o retorno vai ser uma string.
         $value = array_sum($values);
         return $value;
     }
