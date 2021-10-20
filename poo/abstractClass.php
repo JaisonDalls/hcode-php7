@@ -34,7 +34,7 @@ class Fusca extends Automovel{
 }
 
 $carro= new Fusca();
-$carro->acelerar(89);
+
 
 
 ?>
